@@ -1,0 +1,19 @@
+{
+  "name": "xixinannanblogs",
+  "description": "Thoughts and reflections of Xixi & Nannan",
+  "scripts": {
+    "postdeploy": "bin/deploy"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
